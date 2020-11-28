@@ -15,7 +15,7 @@ The cities.json file attached below has all the cities, their geolocation (latit
 
 ## install import org.json.*  jar file if not available in system, else will give import error.
 
-## Change json Data file location pointing  ReadContinentData.Class . my system is ubuntu so variable is set to private String JSON_DATA_PATH = "src/TravelPlanAlgorithm/cities.json" change location according to system.
+## Change json Data file location pointing in ReadContinentData.Class . my system is ubuntu so variable is set to JSON_DATA_PATH = "src/TravelPlanAlgorithm/cities.json" change location according to system.
 
 
 # TO RUN PROGRAM -: 
