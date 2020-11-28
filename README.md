@@ -32,16 +32,16 @@ The cities.json file attached below has all the cities, their geolocation (latit
 
 ## Sample Input & Output -:
 
-## Input - 
-### Enter Your Starting City Code - 
-### BOM
+### Input - 
+Enter Your Starting City Code - 
+BOM
 
-## Output - 
-### Shortest Path Recommended From System - 
-### BOM ( Mumbai,asia )  --> OBY ( Ittoqqortoormiit,north-america )  --> CCK ( Home Island,oceania )  --> FEN ( Fernando de Noronha,south-america )  --> BSA ( 
-### Bosaso,africa )  --> OSW ( Orsk,europe )  --> Back To BOM ( Mumbai,asia ) 
+### Output - 
+Shortest Path Recommended From System - 
+BOM ( Mumbai,asia )  --> OBY ( Ittoqqortoormiit,north-america )  --> CCK ( Home Island,oceania )  --> FEN ( Fernando de Noronha,south-america )  --> BSA ( 
+Bosaso,africa )  --> OSW ( Orsk,europe )  --> Back To BOM ( Mumbai,asia ) 
 
-### Total Distance Travelled in Journey = 45865.19 KM 
+Total Distance Travelled in Journey = 45865.19 KM 
 
 
 
@@ -59,47 +59,47 @@ The cities.json file attached below has all the cities, their geolocation (latit
 
 
 
-## Input - 
-### Enter Your Starting City Code - 
-### CAY
+### Input - 
+Enter Your Starting City Code - 
+CAY
 
-## Output - 
-### Shortest Path Recommended From System - 
-### CAY ( Cayenne,south-america )  --> SFL ( São Filipe,africa )  --> FLW ( Flores Island,europe )  --> BJV ( Bodrum,asia )  --> TAB ( Tobago,north-america )  --> ### GMR ( Totegegie,oceania )  --> Back To CAY ( Cayenne,south-america ) 
+### Output - 
+Shortest Path Recommended From System - 
+CAY ( Cayenne,south-america )  --> SFL ( São Filipe,africa )  --> FLW ( Flores Island,europe )  --> BJV ( Bodrum,asia )  --> TAB ( Tobago,north-america )  --> ### GMR ( Totegegie,oceania )  --> Back To CAY ( Cayenne,south-america ) 
 
-### Total Distance Travelled in Journey = 53548.62 KM 
-
-
-## Input - 
-### Enter Your Starting City Code - 
-### TAB
-
-## Output - 
-### Shortest Path Recommended From System - 
-### TAB ( Tobago,north-america )  --> AUQ ( Hiva Oa,oceania )  --> CKZ ( Çanakkale,asia )  --> MUN ( Maturín,south-america )  --> VXE ( São Vicente,africa )  --> ### FLW ( Flores Island,europe )  --> Back To TAB ( Tobago,north-america ) 
-
-### Total Distance Travelled in Journey = 62714.43 KM 
+Total Distance Travelled in Journey = 53548.62 KM 
 
 
-## Input - 
-### Enter Your Starting City Code - 
-### FLW
+### Input - 
+Enter Your Starting City Code - 
+TAB
 
-## Output - 
-### Shortest Path Recommended From System - 
-### FLW ( Flores Island,europe )  --> EUN ( Laayoune,africa )  --> CAY ( Cayenne,south-america )  --> CKZ ( Çanakkale,asia )  --> YYT ( St. John s,north-america )  --> AUQ ( Hiva Oa,oceania )  --> Back To FLW ( Flores Island,europe ) 
+### Output - 
+Shortest Path Recommended From System - 
+TAB ( Tobago,north-america )  --> AUQ ( Hiva Oa,oceania )  --> CKZ ( Çanakkale,asia )  --> MUN ( Maturín,south-america )  --> VXE ( São Vicente,africa )  --> ### FLW ( Flores Island,europe )  --> Back To TAB ( Tobago,north-america ) 
 
-### Total Distance Travelled in Journey = 59276.92 KM 
+Total Distance Travelled in Journey = 62714.43 KM 
 
 
+### Input - 
+Enter Your Starting City Code - 
+FLW
+
+### Output - 
+Shortest Path Recommended From System - 
+FLW ( Flores Island,europe )  --> EUN ( Laayoune,africa )  --> CAY ( Cayenne,south-america )  --> CKZ ( Çanakkale,asia )  --> YYT ( St. John s,north-america )  --> AUQ ( Hiva Oa,oceania )  --> Back To FLW ( Flores Island,europe ) 
+
+Total Distance Travelled in Journey = 59276.92 KM 
 
 
 
-## Used Reference - 
-### https://www.sanfoundry.com/java-program-find-nearest-neighbour-using-k-d-tree-search/
-### https://rosettacode.org/wiki/K-d_tree#Java
-### https://en.wikipedia.org/wiki/Nearest_neighbor_search
-### https://stackoverflow.com/questions/28028618/2d-kd-tree-and-nearest-neighbour-search
+
+
+### Used Reference - 
+https://www.sanfoundry.com/java-program-find-nearest-neighbour-using-k-d-tree-search/
+https://rosettacode.org/wiki/K-d_tree#Java
+https://en.wikipedia.org/wiki/Nearest_neighbor_search
+https://stackoverflow.com/questions/28028618/2d-kd-tree-and-nearest-neighbour-search
 
 
 
