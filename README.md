@@ -13,21 +13,20 @@ The cities.json file attached below has all the cities, their geolocation (latit
 
 ## Requirment - 
 
-### install import org.json.*  jar file if not available in system, else will give import error.
-
-### Change json Data file location pointing in ReadContinentData.Class . my system is ubuntu so variable is set to JSON_DATA_PATH = "src/TravelPlanAlgorithm/cities.json" change location according to system.
+1. install import org.json.*  jar file if not available in system, else will give import error.
+2. Change json Data file location pointing in ReadContinentData.Class . my system is ubuntu so variable is set to JSON_DATA_PATH = "src/TravelPlanAlgorithm/cities.json" change location according to system.
 
 
 ## TO RUN PROGRAM -: 
-###            Step 1 - Placed all the file in Folder
-###            Step 2 - Run TravelPlanMain.Class from Java Commend
+Step 1 - Placed all the file in Folder
+Step 2 - Run TravelPlanMain.Class from Java Commend
 
 
 ## Solution Description -: Using K-D Tree Search Implementation to Find The Shortest Path From Source City Visiting All the Continent
 
-###    Step 1 - Using ReadContinentData.Class to Read JSON Data & Removing unwanted Data that is Not needed for Computation like rank,dest,images,airports etc.
-###    Step 2 - Finding Average Mean Coordinate of All the Continent and Calculating Shortest Path Possible Via Continent Way.first calculating what is the shortest.Path of Continent. like Asia -> North-America -> South - America -> .....
-###    Step 3 - Than Finding Shortest Distance City in the Continent from Given Point. Usine K-D Search Tree Algorithm to Find Closed City in Given Coordinate.
+Step 1 - Using ReadContinentData.Class to Read JSON Data & Removing unwanted Data that is Not needed for Computation like rank,dest,images,airports etc.
+Step 2 - Finding Average Mean Coordinate of All the Continent and Calculating Shortest Path Possible Via Continent Way.first calculating what is the shortest.Path of Continent. like Asia -> North-America -> South - America -> .....
+Step 3 - Than Finding Shortest Distance City in the Continent from Given Point. Usine K-D Search Tree Algorithm to Find Closed City in Given Coordinate.
 
 
 ## Sample Input & Output -:
@@ -46,15 +45,15 @@ Total Distance Travelled in Journey = 45865.19 KM
 
 
 
-## Input - 
-### Enter Your Starting City Code - 
-### OBY
+### Input - 
+Enter Your Starting City Code - 
+OBY
 
-## Output - 
-### Shortest Path Recommended From System - 
-### OBY ( Ittoqqortoormiit,north-america )  --> ROR ( Koror,oceania )  --> CKZ ( Çanakkale,asia )  --> CAY ( Cayenne,south-america )  --> TNG ( Tangier,africa )  -### -> IFJ ( Ísafjörður,europe )  --> Back To OBY ( Ittoqqortoormiit,north-america ) 
+### Output - 
+Shortest Path Recommended From System - 
+OBY ( Ittoqqortoormiit,north-america )  --> ROR ( Koror,oceania )  --> CKZ ( Çanakkale,asia )  --> CAY ( Cayenne,south-america )  --> TNG ( Tangier,africa )  --> IFJ ( Ísafjörður,europe )  --> Back To OBY ( Ittoqqortoormiit,north-america ) 
 
-### Total Distance Travelled in Journey = 63308.79 KM
+Total Distance Travelled in Journey = 63308.79 KM
 
 
 
