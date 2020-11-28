@@ -99,9 +99,13 @@ Total Distance Travelled in Journey = 59276.92 KM
 
 
 ### Used Reference - 
+
 https://www.sanfoundry.com/java-program-find-nearest-neighbour-using-k-d-tree-search/
+
 https://rosettacode.org/wiki/K-d_tree#Java
+
 https://en.wikipedia.org/wiki/Nearest_neighbor_search
+
 https://stackoverflow.com/questions/28028618/2d-kd-tree-and-nearest-neighbour-search
 
 
